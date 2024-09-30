@@ -1,0 +1,515 @@
+[
+  {
+    "identity": 61143,
+    "start": 1744,
+    "end": 5362,
+    "type": "STARTS_AT",
+    "properties": {
+      "edgeId": 61143,
+      "containerType": "22G1",
+      "weight": 0,
+      "freightType": "GENERAL"
+    },
+    "elementId": "5:941e9d98-7818-4bc3-8aad-ae72073ccce6:61143",
+    "startNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:1744",
+    "endNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:5362"
+  }
+  , 
+  {
+    "identity": 60504,
+    "start": 5362,
+    "end": 842,
+    "type": "LOCAL_HAULAGE",
+    "properties": {
+      "duration": 24,
+      "contractor": "EU Transports Company",
+      "costs": 550,
+      "edgeId": 60504,
+      "containerType": "22G1",
+      "weight": 555.1,
+      "transshipment": false,
+      "kgCO2e": 3,
+      "freightType": "GENERAL"
+    },
+    "elementId": "5:941e9d98-7818-4bc3-8aad-ae72073ccce6:60504",
+    "startNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:5362",
+    "endNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:842"
+  }
+  , 
+  {
+    "identity": 54128,
+    "start": 842,
+    "end": 4269,
+    "type": "TRUCK_LIFT_OFF",
+    "properties": {
+      "duration": 0,
+      "costs": 75,
+      "edgeId": 54128,
+      "containerType": "22G1",
+      "weight": 175.2,
+      "kgCO2e": 2,
+      "transshipment": true,
+      "freightType": "GENERAL"
+    },
+    "elementId": "5:941e9d98-7818-4bc3-8aad-ae72073ccce6:54128",
+    "startNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:842",
+    "endNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:4269"
+  }
+  , 
+  {
+    "identity": 2507,
+    "start": 4269,
+    "end": 4883,
+    "type": "RAIL_LIFT_ON",
+    "properties": {
+      "duration": 0,
+      "costs": 75,
+      "edgeId": 2507,
+      "containerType": "22G1",
+      "weight": 75.2,
+      "kgCO2e": 2,
+      "transshipment": false,
+      "freightType": "GENERAL"
+    },
+    "elementId": "5:941e9d98-7818-4bc3-8aad-ae72073ccce6:2507",
+    "startNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:4269",
+    "endNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:4883"
+  }
+  , 
+  {
+    "identity": 901,
+    "start": 4883,
+    "end": 4884,
+    "type": "RAIL_LEG",
+    "properties": {
+      "duration": 48,
+      "costs": 650,
+      "edgeId": 901,
+      "containerType": "22G1",
+      "weight": 660.9,
+      "kgCO2e": 13,
+      "transshipment": false,
+      "freightType": "GENERAL"
+    },
+    "elementId": "5:941e9d98-7818-4bc3-8aad-ae72073ccce6:901",
+    "startNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:4883",
+    "endNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:4884"
+  }
+  , 
+  {
+    "identity": 2787,
+    "start": 4884,
+    "end": 3971,
+    "type": "RAIL_LIFT_OFF",
+    "properties": {
+      "duration": 0,
+      "costs": 50,
+      "edgeId": 2787,
+      "containerType": "22G1",
+      "weight": 150.2,
+      "kgCO2e": 2,
+      "transshipment": true,
+      "freightType": "GENERAL"
+    },
+    "elementId": "5:941e9d98-7818-4bc3-8aad-ae72073ccce6:2787",
+    "startNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:4884",
+    "endNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:3971"
+  }
+  , 
+  {
+    "identity": 37366,
+    "start": 3971,
+    "end": 3972,
+    "type": "WAIT_AT_TERMINAL",
+    "properties": {
+      "duration": 24,
+      "costs": 50,
+      "edgeId": 37366,
+      "containerType": "22G1",
+      "weight": 54.8,
+      "kgCO2e": 0,
+      "transshipment": false,
+      "freightType": "GENERAL"
+    },
+    "elementId": "5:941e9d98-7818-4bc3-8aad-ae72073ccce6:37366",
+    "startNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:3971",
+    "endNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:3972"
+  }
+  , 
+  {
+    "identity": 37367,
+    "start": 3972,
+    "end": 3973,
+    "type": "WAIT_AT_TERMINAL",
+    "properties": {
+      "duration": 24,
+      "costs": 50,
+      "edgeId": 37367,
+      "containerType": "22G1",
+      "weight": 54.8,
+      "kgCO2e": 0,
+      "transshipment": false,
+      "freightType": "GENERAL"
+    },
+    "elementId": "5:941e9d98-7818-4bc3-8aad-ae72073ccce6:37367",
+    "startNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:3972",
+    "endNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:3973"
+  }
+  , 
+  {
+    "identity": 37368,
+    "start": 3973,
+    "end": 3974,
+    "type": "WAIT_AT_TERMINAL",
+    "properties": {
+      "duration": 24,
+      "costs": 50,
+      "edgeId": 37368,
+      "containerType": "22G1",
+      "weight": 54.8,
+      "kgCO2e": 0,
+      "transshipment": false,
+      "freightType": "GENERAL"
+    },
+    "elementId": "5:941e9d98-7818-4bc3-8aad-ae72073ccce6:37368",
+    "startNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:3973",
+    "endNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:3974"
+  }
+  , 
+  {
+    "identity": 37369,
+    "start": 3974,
+    "end": 3975,
+    "type": "WAIT_AT_TERMINAL",
+    "properties": {
+      "duration": 24,
+      "costs": 50,
+      "edgeId": 37369,
+      "containerType": "22G1",
+      "weight": 54.8,
+      "kgCO2e": 0,
+      "transshipment": false,
+      "freightType": "GENERAL"
+    },
+    "elementId": "5:941e9d98-7818-4bc3-8aad-ae72073ccce6:37369",
+    "startNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:3974",
+    "endNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:3975"
+  }
+  , 
+  {
+    "identity": 41338,
+    "start": 3975,
+    "end": 4669,
+    "type": "VESSEL_LOAD",
+    "properties": {
+      "duration": 24,
+      "costs": 50,
+      "edgeId": 41338,
+      "containerType": "22G1",
+      "weight": 54.9,
+      "kgCO2e": 1,
+      "transshipment": false,
+      "freightType": "GENERAL"
+    },
+    "elementId": "5:941e9d98-7818-4bc3-8aad-ae72073ccce6:41338",
+    "startNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:3975",
+    "endNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:4669"
+  }
+  , 
+  {
+    "identity": 41337,
+    "start": 4669,
+    "end": 4670,
+    "type": "VESSEL_LEG",
+    "properties": {
+      "duration": 240,
+      "costs": 250,
+      "edgeId": 41337,
+      "containerType": "22G1",
+      "weight": 309.9,
+      "kgCO2e": 119,
+      "transshipment": false,
+      "freightType": "GENERAL"
+    },
+    "elementId": "5:941e9d98-7818-4bc3-8aad-ae72073ccce6:41337",
+    "startNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:4669",
+    "endNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:4670"
+  }
+  , 
+  {
+    "identity": 41339,
+    "start": 4670,
+    "end": 3787,
+    "type": "VESSEL_DISCHARGE",
+    "properties": {
+      "duration": 24,
+      "costs": 65,
+      "edgeId": 41339,
+      "containerType": "22G1",
+      "weight": 169.9,
+      "kgCO2e": 1,
+      "transshipment": true,
+      "freightType": "GENERAL"
+    },
+    "elementId": "5:941e9d98-7818-4bc3-8aad-ae72073ccce6:41339",
+    "startNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:4670",
+    "endNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:3787"
+  }
+  , 
+  {
+    "identity": 36392,
+    "start": 3787,
+    "end": 3788,
+    "type": "WAIT_AT_TERMINAL",
+    "properties": {
+      "duration": 24,
+      "costs": 60,
+      "edgeId": 36392,
+      "containerType": "22G1",
+      "weight": 64.8,
+      "kgCO2e": 0,
+      "transshipment": false,
+      "freightType": "GENERAL"
+    },
+    "elementId": "5:941e9d98-7818-4bc3-8aad-ae72073ccce6:36392",
+    "startNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:3787",
+    "endNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:3788"
+  }
+  , 
+  {
+    "identity": 36393,
+    "start": 3788,
+    "end": 3789,
+    "type": "WAIT_AT_TERMINAL",
+    "properties": {
+      "duration": 24,
+      "costs": 60,
+      "edgeId": 36393,
+      "containerType": "22G1",
+      "weight": 64.8,
+      "kgCO2e": 0,
+      "transshipment": false,
+      "freightType": "GENERAL"
+    },
+    "elementId": "5:941e9d98-7818-4bc3-8aad-ae72073ccce6:36393",
+    "startNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:3788",
+    "endNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:3789"
+  }
+  , 
+  {
+    "identity": 36394,
+    "start": 3789,
+    "end": 3790,
+    "type": "WAIT_AT_TERMINAL",
+    "properties": {
+      "duration": 24,
+      "costs": 60,
+      "edgeId": 36394,
+      "containerType": "22G1",
+      "weight": 64.8,
+      "kgCO2e": 0,
+      "transshipment": false,
+      "freightType": "GENERAL"
+    },
+    "elementId": "5:941e9d98-7818-4bc3-8aad-ae72073ccce6:36394",
+    "startNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:3789",
+    "endNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:3790"
+  }
+  , 
+  {
+    "identity": 36395,
+    "start": 3790,
+    "end": 3791,
+    "type": "WAIT_AT_TERMINAL",
+    "properties": {
+      "duration": 24,
+      "costs": 60,
+      "edgeId": 36395,
+      "containerType": "22G1",
+      "weight": 64.8,
+      "kgCO2e": 0,
+      "transshipment": false,
+      "freightType": "GENERAL"
+    },
+    "elementId": "5:941e9d98-7818-4bc3-8aad-ae72073ccce6:36395",
+    "startNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:3790",
+    "endNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:3791"
+  }
+  , 
+  {
+    "identity": 36396,
+    "start": 3791,
+    "end": 3792,
+    "type": "WAIT_AT_TERMINAL",
+    "properties": {
+      "duration": 24,
+      "costs": 60,
+      "edgeId": 36396,
+      "containerType": "22G1",
+      "weight": 64.8,
+      "kgCO2e": 0,
+      "transshipment": false,
+      "freightType": "GENERAL"
+    },
+    "elementId": "5:941e9d98-7818-4bc3-8aad-ae72073ccce6:36396",
+    "startNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:3791",
+    "endNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:3792"
+  }
+  , 
+  {
+    "identity": 36397,
+    "start": 3792,
+    "end": 3793,
+    "type": "WAIT_AT_TERMINAL",
+    "properties": {
+      "duration": 24,
+      "costs": 60,
+      "edgeId": 36397,
+      "containerType": "22G1",
+      "weight": 64.8,
+      "kgCO2e": 0,
+      "transshipment": false,
+      "freightType": "GENERAL"
+    },
+    "elementId": "5:941e9d98-7818-4bc3-8aad-ae72073ccce6:36397",
+    "startNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:3792",
+    "endNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:3793"
+  }
+  , 
+  {
+    "identity": 41623,
+    "start": 3793,
+    "end": 4707,
+    "type": "VESSEL_LOAD",
+    "properties": {
+      "duration": 24,
+      "costs": 75,
+      "edgeId": 41623,
+      "containerType": "22G1",
+      "weight": 79.9,
+      "kgCO2e": 1,
+      "transshipment": false,
+      "freightType": "GENERAL"
+    },
+    "elementId": "5:941e9d98-7818-4bc3-8aad-ae72073ccce6:41623",
+    "startNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:3793",
+    "endNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:4707"
+  }
+  , 
+  {
+    "identity": 41622,
+    "start": 4707,
+    "end": 4708,
+    "type": "VESSEL_LEG",
+    "properties": {
+      "duration": 48,
+      "costs": 150,
+      "edgeId": 41622,
+      "containerType": "22G1",
+      "weight": 163.0,
+      "kgCO2e": 34,
+      "transshipment": false,
+      "freightType": "GENERAL"
+    },
+    "elementId": "5:941e9d98-7818-4bc3-8aad-ae72073ccce6:41622",
+    "startNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:4707",
+    "endNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:4708"
+  }
+  , 
+  {
+    "identity": 41624,
+    "start": 4708,
+    "end": 3897,
+    "type": "VESSEL_DISCHARGE",
+    "properties": {
+      "duration": 24,
+      "costs": 90,
+      "edgeId": 41624,
+      "containerType": "22G1",
+      "weight": 194.9,
+      "kgCO2e": 1,
+      "transshipment": true,
+      "freightType": "GENERAL"
+    },
+    "elementId": "5:941e9d98-7818-4bc3-8aad-ae72073ccce6:41624",
+    "startNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:4708",
+    "endNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:3897"
+  }
+  , 
+  {
+    "identity": 47645,
+    "start": 3897,
+    "end": 70,
+    "type": "TRUCK_LIFT_ON",
+    "properties": {
+      "duration": 0,
+      "costs": 100,
+      "edgeId": 47645,
+      "containerType": "22G1",
+      "weight": 100.2,
+      "kgCO2e": 2,
+      "transshipment": false,
+      "freightType": "GENERAL"
+    },
+    "elementId": "5:941e9d98-7818-4bc3-8aad-ae72073ccce6:47645",
+    "startNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:3897",
+    "endNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:70"
+  }
+  , 
+  {
+    "identity": 42613,
+    "start": 70,
+    "end": 1171,
+    "type": "TRUCK_LEG",
+    "properties": {
+      "duration": 24,
+      "contractor": "NA Logistics Company",
+      "costs": 1900,
+      "edgeId": 42613,
+      "containerType": "22G1",
+      "weight": 1917.9,
+      "transshipment": false,
+      "kgCO2e": 131,
+      "freightType": "GENERAL"
+    },
+    "elementId": "5:941e9d98-7818-4bc3-8aad-ae72073ccce6:42613",
+    "startNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:70",
+    "endNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:1171"
+  }
+  , 
+  {
+    "identity": 51591,
+    "start": 1171,
+    "end": 3698,
+    "type": "TRUCK_LIFT_OFF",
+    "properties": {
+      "duration": 0,
+      "costs": 75,
+      "edgeId": 51591,
+      "containerType": "22G1",
+      "weight": 175.2,
+      "kgCO2e": 2,
+      "transshipment": true,
+      "freightType": "GENERAL"
+    },
+    "elementId": "5:941e9d98-7818-4bc3-8aad-ae72073ccce6:51591",
+    "startNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:1171",
+    "endNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:3698"
+  }
+  , 
+  {
+    "identity": 61177,
+    "start": 3698,
+    "end": 1745,
+    "type": "ENDS_AT",
+    "properties": {
+      "edgeId": 61177,
+      "containerType": "22G1",
+      "weight": 0,
+      "freightType": "GENERAL"
+    },
+    "elementId": "5:941e9d98-7818-4bc3-8aad-ae72073ccce6:61177",
+    "startNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:3698",
+    "endNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:1745"
+  }
+  ]

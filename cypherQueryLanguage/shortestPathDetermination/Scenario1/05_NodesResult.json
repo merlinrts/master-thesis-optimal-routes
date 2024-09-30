@@ -1,0 +1,158 @@
+[
+    {
+      "identity": 3626,
+      "labels": [
+        "VirtualStartNode"
+      ],
+      "properties": {
+        "id": "UUID-1"
+      },
+      "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:3626"
+    }
+    , 
+    {
+      "identity": 1726,
+      "labels": [
+        "TimeExpandedTruckDeparture"
+      ],
+      "properties": {
+        "locode": "DEMUC",
+        "lon": 11.58,
+        "lat": 48.14,
+        "timestamp": "2024-01-01T10:00:00"
+      },
+      "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:1726"
+    }
+    , 
+    {
+      "identity": 2627,
+      "labels": [
+        "TimeExpandedTruckArrival"
+      ],
+      "properties": {
+        "locode": "DEHAM",
+        "lon": 9.99,
+        "lat": 53.55,
+        "timestamp": "2024-01-02T10:00:00"
+      },
+      "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:2627"
+    }
+    , 
+    {
+      "identity": 333,
+      "labels": [
+        "TimeExpandedTerminal"
+      ],
+      "properties": {
+        "lon": 9.99,
+        "terminalCode": "DEHAM-ST",
+        "lat": 53.55,
+        "timestamp": "2024-01-02T10:00:00"
+      },
+      "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:333"
+    }
+    , 
+    {
+      "identity": 1132,
+      "labels": [
+        "VesselDeparture"
+      ],
+      "properties": {
+        "voyageId": 4100,
+        "lon": 9.99,
+        "id": 4102,
+        "terminalCode": "DEHAM-ST",
+        "lat": 53.55,
+        "timestamp": "2024-01-03T10:00:00"
+      },
+      "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:1132"
+    }
+    , 
+    {
+      "identity": 1133,
+      "labels": [
+        "VesselArrival"
+      ],
+      "properties": {
+        "voyageId": 4100,
+        "lon": -73.57,
+        "id": 4102,
+        "terminalCode": "CAMTR-ST",
+        "lat": 45.5,
+        "timestamp": "2024-01-13T10:00:00"
+      },
+      "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:1133"
+    }
+    , 
+    {
+      "identity": 145,
+      "labels": [
+        "TimeExpandedTerminal"
+      ],
+      "properties": {
+        "lon": -73.57,
+        "terminalCode": "CAMTR-ST",
+        "lat": 45.5,
+        "timestamp": "2024-01-14T10:00:00"
+      },
+      "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:145"
+    }
+    , 
+    {
+      "identity": 146,
+      "labels": [
+        "TimeExpandedTerminal"
+      ],
+      "properties": {
+        "lon": -73.57,
+        "terminalCode": "CAMTR-ST",
+        "lat": 45.5,
+        "timestamp": "2024-01-15T10:00:00"
+      },
+      "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:146"
+    }
+    , 
+    {
+      "identity": 1362,
+      "labels": [
+        "RailDeparture"
+      ],
+      "properties": {
+        "lon": -73.57,
+        "id": 3040,
+        "terminalCode": "CAMTR-ST",
+        "lat": 45.5,
+        "timestamp": "2024-01-15T10:00:00"
+      },
+      "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:1362"
+    }
+    , 
+    {
+      "identity": 1363,
+      "labels": [
+        "RailArrival"
+      ],
+      "properties": {
+        "lon": -87.63,
+        "id": 3040,
+        "terminalCode": "USCHI-RT",
+        "lat": 41.88,
+        "timestamp": "2024-01-20T10:00:00"
+      },
+      "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:1363"
+    }
+    , 
+    {
+      "identity": 51,
+      "labels": [
+        "TimeExpandedTerminal"
+      ],
+      "properties": {
+        "lon": -87.63,
+        "terminalCode": "USCHI-RT",
+        "lat": 41.88,
+        "timestamp": "2024-01-20T10:00:00"
+      },
+      "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:51"
+    }
+    ]

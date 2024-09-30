@@ -1,0 +1,159 @@
+[
+  {
+    "identity": 2903,
+    "labels": [
+      "VesselArrival"
+    ],
+    "properties": {
+      "voyageId": 1200,
+      "lon": -74.01,
+      "id": 1203,
+      "terminalCode": "USNYC-ST",
+      "lat": 40.71,
+      "timestamp": "2024-01-23T10:00:00"
+    },
+    "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:2903"
+  }
+  , 
+  {
+    "identity": 2904,
+    "labels": [
+      "VesselDeparture"
+    ],
+    "properties": {
+      "voyageId": 1200,
+      "lon": -74.01,
+      "id": 1204,
+      "terminalCode": "USNYC-ST",
+      "lat": 40.71,
+      "timestamp": "2024-01-24T10:00:00"
+    },
+    "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:2904"
+  }
+  , 
+  {
+    "identity": 2905,
+    "labels": [
+      "VesselArrival"
+    ],
+    "properties": {
+      "voyageId": 1200,
+      "lon": -76.29,
+      "id": 1204,
+      "terminalCode": "USORF-ST",
+      "lat": 36.85,
+      "timestamp": "2024-01-25T10:00:00"
+    },
+    "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:2905"
+  }
+  , 
+  {
+    "identity": 2906,
+    "labels": [
+      "VesselDeparture"
+    ],
+    "properties": {
+      "voyageId": 1200,
+      "lon": -76.29,
+      "id": 1205,
+      "terminalCode": "USORF-ST",
+      "lat": 36.85,
+      "timestamp": "2024-01-26T10:00:00"
+    },
+    "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:2906"
+  }
+  , 
+  {
+    "identity": 2907,
+    "labels": [
+      "VesselArrival"
+    ],
+    "properties": {
+      "voyageId": 1200,
+      "lon": 4.48,
+      "id": 1205,
+      "terminalCode": "NLRTM-STN",
+      "lat": 51.92,
+      "timestamp": "2024-02-04T10:00:00"
+    },
+    "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:2907"
+  }
+  , 
+  {
+    "identity": 2908,
+    "labels": [
+      "VesselDeparture"
+    ],
+    "properties": {
+      "voyageId": 1300,
+      "lon": 4.48,
+      "id": 1301,
+      "terminalCode": "NLRTM-STN",
+      "lat": 51.92,
+      "timestamp": "2024-02-05T10:00:00"
+    },
+    "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:2908"
+  }
+  , 
+  {
+    "identity": 2909,
+    "labels": [
+      "VesselArrival"
+    ],
+    "properties": {
+      "voyageId": 1300,
+      "lon": 9.99,
+      "id": 1301,
+      "terminalCode": "DEHAM-ST",
+      "lat": 53.55,
+      "timestamp": "2024-02-06T10:00:00"
+    },
+    "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:2909"
+  }
+  , 
+  {
+    "identity": 2910,
+    "labels": [
+      "VesselDeparture"
+    ],
+    "properties": {
+      "voyageId": 1300,
+      "lon": 9.99,
+      "id": 1302,
+      "terminalCode": "DEHAM-ST",
+      "lat": 53.55,
+      "timestamp": "2024-02-07T10:00:00"
+    },
+    "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:2910"
+  }
+  , 
+  {
+    "identity": 2911,
+    "labels": [
+      "VesselArrival"
+    ],
+    "properties": {
+      "voyageId": 1300,
+      "lon": -73.57,
+      "id": 1302,
+      "terminalCode": "CAMTR-ST",
+      "lat": 45.5,
+      "timestamp": "2024-02-17T10:00:00"
+    },
+    "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:2911"
+  }
+  , 
+  {
+    "identity": 2046,
+    "labels": [
+      "TimeExpandedTerminal"
+    ],
+    "properties": {
+      "lon": -73.57,
+      "terminalCode": "CAMTR-ST",
+      "lat": 45.5,
+      "timestamp": "2024-02-18T10:00:00"
+    },
+    "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:2046"
+  }
+  ]

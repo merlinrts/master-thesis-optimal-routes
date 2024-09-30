@@ -1,0 +1,266 @@
+[
+  {
+    "identity": 1746,
+    "labels": [
+      "VirtualStartNode"
+    ],
+    "properties": {
+      "id": "UUID-4"
+    },
+    "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:1746"
+  }
+  , 
+  {
+    "identity": 242,
+    "labels": [
+      "TimeExpandedTruckDeparture"
+    ],
+    "properties": {
+      "locode": "USATL",
+      "lon": -84.39,
+      "lat": 33.75,
+      "timestamp": "2024-01-03T10:00:00"
+    },
+    "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:242"
+  }
+  , 
+  {
+    "identity": 1343,
+    "labels": [
+      "TimeExpandedTruckArrival"
+    ],
+    "properties": {
+      "locode": "USORF",
+      "lon": -76.29,
+      "lat": 36.85,
+      "timestamp": "2024-01-04T10:00:00"
+    },
+    "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:1343"
+  }
+  , 
+  {
+    "identity": 4570,
+    "labels": [
+      "TimeExpandedTerminal"
+    ],
+    "properties": {
+      "lon": -76.29,
+      "terminalCode": "USORF-ST",
+      "lat": 36.85,
+      "timestamp": "2024-01-04T10:00:00"
+    },
+    "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:4570"
+  }
+  , 
+  {
+    "identity": 4701,
+    "labels": [
+      "VesselDeparture"
+    ],
+    "properties": {
+      "voyageId": 2100,
+      "lon": -76.29,
+      "id": 2105,
+      "terminalCode": "USORF-ST",
+      "lat": 36.85,
+      "timestamp": "2024-01-05T10:00:00"
+    },
+    "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:4701"
+  }
+  , 
+  {
+    "identity": 4702,
+    "labels": [
+      "VesselArrival"
+    ],
+    "properties": {
+      "voyageId": 2100,
+      "lon": 4.48,
+      "id": 2105,
+      "terminalCode": "NLRTM-STN",
+      "lat": 51.92,
+      "timestamp": "2024-01-14T10:00:00"
+    },
+    "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:4702"
+  }
+  , 
+  {
+    "identity": 4703,
+    "labels": [
+      "VesselDeparture"
+    ],
+    "properties": {
+      "voyageId": 2200,
+      "lon": 4.48,
+      "id": 2201,
+      "terminalCode": "NLRTM-STN",
+      "lat": 51.92,
+      "timestamp": "2024-01-15T10:00:00"
+    },
+    "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:4703"
+  }
+  , 
+  {
+    "identity": 4704,
+    "labels": [
+      "VesselArrival"
+    ],
+    "properties": {
+      "voyageId": 2200,
+      "lon": 9.99,
+      "id": 2201,
+      "terminalCode": "DEHAM-ST",
+      "lat": 53.55,
+      "timestamp": "2024-01-16T10:00:00"
+    },
+    "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:4704"
+  }
+  , 
+  {
+    "identity": 3983,
+    "labels": [
+      "TimeExpandedTerminal"
+    ],
+    "properties": {
+      "lon": 9.99,
+      "terminalCode": "DEHAM-ST",
+      "lat": 53.55,
+      "timestamp": "2024-01-17T10:00:00"
+    },
+    "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:3983"
+  }
+  , 
+  {
+    "identity": 3984,
+    "labels": [
+      "TimeExpandedTerminal"
+    ],
+    "properties": {
+      "lon": 9.99,
+      "terminalCode": "DEHAM-ST",
+      "lat": 53.55,
+      "timestamp": "2024-01-18T10:00:00"
+    },
+    "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:3984"
+  }
+  , 
+  {
+    "identity": 3985,
+    "labels": [
+      "TimeExpandedTerminal"
+    ],
+    "properties": {
+      "lon": 9.99,
+      "terminalCode": "DEHAM-ST",
+      "lat": 53.55,
+      "timestamp": "2024-01-19T10:00:00"
+    },
+    "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:3985"
+  }
+  , 
+  {
+    "identity": 3986,
+    "labels": [
+      "TimeExpandedTerminal"
+    ],
+    "properties": {
+      "lon": 9.99,
+      "terminalCode": "DEHAM-ST",
+      "lat": 53.55,
+      "timestamp": "2024-01-20T10:00:00"
+    },
+    "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:3986"
+  }
+  , 
+  {
+    "identity": 3987,
+    "labels": [
+      "TimeExpandedTerminal"
+    ],
+    "properties": {
+      "lon": 9.99,
+      "terminalCode": "DEHAM-ST",
+      "lat": 53.55,
+      "timestamp": "2024-01-21T10:00:00"
+    },
+    "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:3987"
+  }
+  , 
+  {
+    "identity": 4841,
+    "labels": [
+      "VesselDeparture"
+    ],
+    "properties": {
+      "voyageId": 7200,
+      "lon": 9.99,
+      "id": 7201,
+      "terminalCode": "DEHAM-ST",
+      "lat": 53.55,
+      "timestamp": "2024-01-22T10:00:00"
+    },
+    "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:4841"
+  }
+  , 
+  {
+    "identity": 4842,
+    "labels": [
+      "VesselArrival"
+    ],
+    "properties": {
+      "voyageId": 7200,
+      "lon": 4.48,
+      "id": 7201,
+      "terminalCode": "NLRTM-STS",
+      "lat": 51.92,
+      "timestamp": "2024-01-23T10:00:00"
+    },
+    "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:4842"
+  }
+  , 
+  {
+    "identity": 4843,
+    "labels": [
+      "VesselDeparture"
+    ],
+    "properties": {
+      "voyageId": 7200,
+      "lon": 4.48,
+      "id": 7202,
+      "terminalCode": "NLRTM-STS",
+      "lat": 51.92,
+      "timestamp": "2024-01-24T10:00:00"
+    },
+    "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:4843"
+  }
+  , 
+  {
+    "identity": 4844,
+    "labels": [
+      "VesselArrival"
+    ],
+    "properties": {
+      "voyageId": 7200,
+      "lon": 103.82,
+      "id": 7202,
+      "terminalCode": "SGSIN-ST",
+      "lat": 1.35,
+      "timestamp": "2024-02-05T10:00:00"
+    },
+    "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:4844"
+  }
+  , 
+  {
+    "identity": 4503,
+    "labels": [
+      "TimeExpandedTerminal"
+    ],
+    "properties": {
+      "lon": 103.82,
+      "terminalCode": "SGSIN-ST",
+      "lat": 1.35,
+      "timestamp": "2024-02-06T10:00:00"
+    },
+    "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:4503"
+  }
+  ]

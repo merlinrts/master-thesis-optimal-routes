@@ -1,0 +1,471 @@
+{
+    "start": {
+      "identity": 3626,
+      "labels": [
+        "VirtualStartNode"
+      ],
+      "properties": {
+        "id": "UUID-1"
+      },
+      "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:3626"
+    },
+    "end": {
+      "identity": 3627,
+      "labels": [
+        "VirtualEndNode"
+      ],
+      "properties": {
+        "id": "UUID-1"
+      },
+      "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:3627"
+    },
+    "segments": [
+      {
+        "start": {
+          "identity": 3626,
+          "labels": [
+            "VirtualStartNode"
+          ],
+          "properties": {
+            "id": "UUID-1"
+          },
+          "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:3626"
+        },
+        "relationship": {
+          "identity": -11,
+          "start": 3626,
+          "end": 1726,
+          "type": "PATH_0",
+          "properties": {
+            "cost": 0.0
+          },
+          "elementId": "-11",
+          "startNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:3626",
+          "endNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:1726"
+        },
+        "end": {
+          "identity": 1726,
+          "labels": [
+            "TimeExpandedTruckDeparture"
+          ],
+          "properties": {
+            "lon": 11.58,
+            "locode": "DEMUC",
+            "lat": 48.14,
+            "timestamp": "2024-01-01T10:00:00"
+          },
+          "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:1726"
+        }
+      },
+      {
+        "start": {
+          "identity": 1726,
+          "labels": [
+            "TimeExpandedTruckDeparture"
+          ],
+          "properties": {
+            "lon": 11.58,
+            "locode": "DEMUC",
+            "lat": 48.14,
+            "timestamp": "2024-01-01T10:00:00"
+          },
+          "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:1726"
+        },
+        "relationship": {
+          "identity": -12,
+          "start": 1726,
+          "end": 2627,
+          "type": "PATH_0",
+          "properties": {
+            "cost": 911.2
+          },
+          "elementId": "-12",
+          "startNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:1726",
+          "endNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:2627"
+        },
+        "end": {
+          "identity": 2627,
+          "labels": [
+            "TimeExpandedTruckArrival"
+          ],
+          "properties": {
+            "lon": 9.99,
+            "locode": "DEHAM",
+            "lat": 53.55,
+            "timestamp": "2024-01-02T10:00:00"
+          },
+          "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:2627"
+        }
+      },
+      {
+        "start": {
+          "identity": 2627,
+          "labels": [
+            "TimeExpandedTruckArrival"
+          ],
+          "properties": {
+            "lon": 9.99,
+            "locode": "DEHAM",
+            "lat": 53.55,
+            "timestamp": "2024-01-02T10:00:00"
+          },
+          "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:2627"
+        },
+        "relationship": {
+          "identity": -13,
+          "start": 2627,
+          "end": 333,
+          "type": "PATH_0",
+          "properties": {
+            "cost": 150.20000000000005
+          },
+          "elementId": "-13",
+          "startNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:2627",
+          "endNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:333"
+        },
+        "end": {
+          "identity": 333,
+          "labels": [
+            "TimeExpandedTerminal"
+          ],
+          "properties": {
+            "lon": 9.99,
+            "terminalCode": "DEHAM-ST",
+            "lat": 53.55,
+            "timestamp": "2024-01-02T10:00:00"
+          },
+          "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:333"
+        }
+      },
+      {
+        "start": {
+          "identity": 333,
+          "labels": [
+            "TimeExpandedTerminal"
+          ],
+          "properties": {
+            "lon": 9.99,
+            "terminalCode": "DEHAM-ST",
+            "lat": 53.55,
+            "timestamp": "2024-01-02T10:00:00"
+          },
+          "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:333"
+        },
+        "relationship": {
+          "identity": -14,
+          "start": 333,
+          "end": 1132,
+          "type": "PATH_0",
+          "properties": {
+            "cost": 54.90000000000009
+          },
+          "elementId": "-14",
+          "startNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:333",
+          "endNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:1132"
+        },
+        "end": {
+          "identity": 1132,
+          "labels": [
+            "VesselDeparture"
+          ],
+          "properties": {
+            "voyageId": 4100,
+            "lon": 9.99,
+            "id": 4102,
+            "terminalCode": "DEHAM-ST",
+            "lat": 53.55,
+            "timestamp": "2024-01-03T10:00:00"
+          },
+          "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:1132"
+        }
+      },
+      {
+        "start": {
+          "identity": 1132,
+          "labels": [
+            "VesselDeparture"
+          ],
+          "properties": {
+            "voyageId": 4100,
+            "lon": 9.99,
+            "id": 4102,
+            "terminalCode": "DEHAM-ST",
+            "lat": 53.55,
+            "timestamp": "2024-01-03T10:00:00"
+          },
+          "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:1132"
+        },
+        "relationship": {
+          "identity": -15,
+          "start": 1132,
+          "end": 1133,
+          "type": "PATH_0",
+          "properties": {
+            "cost": 309.9000000000001
+          },
+          "elementId": "-15",
+          "startNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:1132",
+          "endNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:1133"
+        },
+        "end": {
+          "identity": 1133,
+          "labels": [
+            "VesselArrival"
+          ],
+          "properties": {
+            "voyageId": 4100,
+            "lon": -73.57,
+            "id": 4102,
+            "terminalCode": "CAMTR-ST",
+            "lat": 45.5,
+            "timestamp": "2024-01-13T10:00:00"
+          },
+          "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:1133"
+        }
+      },
+      {
+        "start": {
+          "identity": 1133,
+          "labels": [
+            "VesselArrival"
+          ],
+          "properties": {
+            "voyageId": 4100,
+            "lon": -73.57,
+            "id": 4102,
+            "terminalCode": "CAMTR-ST",
+            "lat": 45.5,
+            "timestamp": "2024-01-13T10:00:00"
+          },
+          "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:1133"
+        },
+        "relationship": {
+          "identity": -16,
+          "start": 1133,
+          "end": 145,
+          "type": "PATH_0",
+          "properties": {
+            "cost": 169.9000000000001
+          },
+          "elementId": "-16",
+          "startNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:1133",
+          "endNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:145"
+        },
+        "end": {
+          "identity": 145,
+          "labels": [
+            "TimeExpandedTerminal"
+          ],
+          "properties": {
+            "lon": -73.57,
+            "terminalCode": "CAMTR-ST",
+            "lat": 45.5,
+            "timestamp": "2024-01-14T10:00:00"
+          },
+          "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:145"
+        }
+      },
+      {
+        "start": {
+          "identity": 145,
+          "labels": [
+            "TimeExpandedTerminal"
+          ],
+          "properties": {
+            "lon": -73.57,
+            "terminalCode": "CAMTR-ST",
+            "lat": 45.5,
+            "timestamp": "2024-01-14T10:00:00"
+          },
+          "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:145"
+        },
+        "relationship": {
+          "identity": -17,
+          "start": 145,
+          "end": 146,
+          "type": "PATH_0",
+          "properties": {
+            "cost": 64.79999999999995
+          },
+          "elementId": "-17",
+          "startNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:145",
+          "endNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:146"
+        },
+        "end": {
+          "identity": 146,
+          "labels": [
+            "TimeExpandedTerminal"
+          ],
+          "properties": {
+            "lon": -73.57,
+            "terminalCode": "CAMTR-ST",
+            "lat": 45.5,
+            "timestamp": "2024-01-15T10:00:00"
+          },
+          "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:146"
+        }
+      },
+      {
+        "start": {
+          "identity": 146,
+          "labels": [
+            "TimeExpandedTerminal"
+          ],
+          "properties": {
+            "lon": -73.57,
+            "terminalCode": "CAMTR-ST",
+            "lat": 45.5,
+            "timestamp": "2024-01-15T10:00:00"
+          },
+          "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:146"
+        },
+        "relationship": {
+          "identity": -18,
+          "start": 146,
+          "end": 1362,
+          "type": "PATH_0",
+          "properties": {
+            "cost": 75.20000000000005
+          },
+          "elementId": "-18",
+          "startNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:146",
+          "endNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:1362"
+        },
+        "end": {
+          "identity": 1362,
+          "labels": [
+            "RailDeparture"
+          ],
+          "properties": {
+            "lon": -73.57,
+            "id": 3040,
+            "terminalCode": "CAMTR-ST",
+            "lat": 45.5,
+            "timestamp": "2024-01-15T10:00:00"
+          },
+          "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:1362"
+        }
+      },
+      {
+        "start": {
+          "identity": 1362,
+          "labels": [
+            "RailDeparture"
+          ],
+          "properties": {
+            "lon": -73.57,
+            "id": 3040,
+            "terminalCode": "CAMTR-ST",
+            "lat": 45.5,
+            "timestamp": "2024-01-15T10:00:00"
+          },
+          "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:1362"
+        },
+        "relationship": {
+          "identity": -19,
+          "start": 1362,
+          "end": 1363,
+          "type": "PATH_0",
+          "properties": {
+            "cost": 1076.3000000000002
+          },
+          "elementId": "-19",
+          "startNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:1362",
+          "endNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:1363"
+        },
+        "end": {
+          "identity": 1363,
+          "labels": [
+            "RailArrival"
+          ],
+          "properties": {
+            "lon": -87.63,
+            "id": 3040,
+            "terminalCode": "USCHI-RT",
+            "lat": 41.88,
+            "timestamp": "2024-01-20T10:00:00"
+          },
+          "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:1363"
+        }
+      },
+      {
+        "start": {
+          "identity": 1363,
+          "labels": [
+            "RailArrival"
+          ],
+          "properties": {
+            "lon": -87.63,
+            "id": 3040,
+            "terminalCode": "USCHI-RT",
+            "lat": 41.88,
+            "timestamp": "2024-01-20T10:00:00"
+          },
+          "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:1363"
+        },
+        "relationship": {
+          "identity": -20,
+          "start": 1363,
+          "end": 51,
+          "type": "PATH_0",
+          "properties": {
+            "cost": 175.19999999999982
+          },
+          "elementId": "-20",
+          "startNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:1363",
+          "endNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:51"
+        },
+        "end": {
+          "identity": 51,
+          "labels": [
+            "TimeExpandedTerminal"
+          ],
+          "properties": {
+            "lon": -87.63,
+            "terminalCode": "USCHI-RT",
+            "lat": 41.88,
+            "timestamp": "2024-01-20T10:00:00"
+          },
+          "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:51"
+        }
+      },
+      {
+        "start": {
+          "identity": 51,
+          "labels": [
+            "TimeExpandedTerminal"
+          ],
+          "properties": {
+            "lon": -87.63,
+            "terminalCode": "USCHI-RT",
+            "lat": 41.88,
+            "timestamp": "2024-01-20T10:00:00"
+          },
+          "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:51"
+        },
+        "relationship": {
+          "identity": -21,
+          "start": 51,
+          "end": 3627,
+          "type": "PATH_0",
+          "properties": {
+            "cost": 0.0
+          },
+          "elementId": "-21",
+          "startNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:51",
+          "endNodeElementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:3627"
+        },
+        "end": {
+          "identity": 3627,
+          "labels": [
+            "VirtualEndNode"
+          ],
+          "properties": {
+            "id": "UUID-1"
+          },
+          "elementId": "4:941e9d98-7818-4bc3-8aad-ae72073ccce6:3627"
+        }
+      }
+    ],
+    "length": 11.0
+  }
